@@ -162,14 +162,38 @@ body {
     line-height: 1.4;
 }
 
+@media screen and (max-width: 1000px) {
+
+    body {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media screen and (max-width: 650px) {
 
     body {
         grid-template-columns: 1fr;
-        padding: 15px;
+        padding: 12px;
     }
 
     .title {
-        font-size: 40px;
+        font-size: 38px;
+    }
+    .n1,
+    .n2,
+    .n3,
+    .n4,
+    .n5,
+    .n6 {
+        max-width: 100%;
+    }
+
+    .kam1,
+    .kam2,
+    .kam3,
+    .kam4,
+    .kam5,
+    .kam6 {
+        height: 200px;
     }
 }
